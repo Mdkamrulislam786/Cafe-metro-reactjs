@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I am using react-bootstrap library to develope this restaurant website. Till now I found that its much more easier to use react-bootstrap cz it helps you make the components faster and responsive.
 
 ## Available Scripts
 
