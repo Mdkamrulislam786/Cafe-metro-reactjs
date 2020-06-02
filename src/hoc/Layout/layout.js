@@ -9,7 +9,6 @@ class Layout extends Component {
     return (
       <div id="page-wrap">
        <Header/>
-      
         {this.props.children}
         Footers
       </div>
