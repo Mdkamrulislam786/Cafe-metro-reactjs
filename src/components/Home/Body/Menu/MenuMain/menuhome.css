@@ -1,3 +1,8 @@
+#menuhome{
+    position: relative;
+    
+}
+
 /**backgrond-images**/
 .MenuHomeImg {
     --bg-background: url(../../../../../assets/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg) bottom;
@@ -24,20 +29,23 @@
     background: url(../../../../../assets/woman-eating-bruschetta-1537635.jpg) bottom;
 }
 
+/* Menu paragraph elements */
 .environment,
 .MenuHomeImg,
 .chef,
 .masterkitchen,
 .celebs,
-.customer-reviews p {
+.customer-reviews > p {
     text-decoration: none;
     text-decoration-style: none;
-    color: green;
+    color: black;
     font-size: 5rem;
     font-weight: 700;
-    border: 1px solid #000000;
 }
 
+
+
+/* Menu container */
 .MenuHomeImg,
 .environment,
 .chef,
@@ -60,7 +68,7 @@
 h3 {
     text-decoration: none;
     text-decoration-style: none;
-    color: white;
+    color: green;
     font-size: 5rem;
     font-weight: 700;
 
@@ -69,16 +77,23 @@ h3 {
 h3:hover {
     color: goldenrod;
 }
-
+a{
+text-decoration: none;
+text-decoration-style: none;
+color: #ffffff;
+}
 a:hover {
     text-decoration: none;
+    color: chartreuse;
 }
 
 p:hover {
-    color: greenyellow;
+    color: #000000;
 }
 
-@media (max-width:320px) {
+
+
+@media (min-width:320px) and (max-width:475px) {
 
     .environment,
     .MenuHomeImg,
@@ -90,11 +105,12 @@ p:hover {
         color: #ffffff;
         font-size: 2rem;
         font-weight: 600;
-        border: 1px solid #000000;
+        text-decoration-style: none;
     }
 
     h3 {
         font-size: 2rem;
+        text-decoration-style: none;
     }
 }
 

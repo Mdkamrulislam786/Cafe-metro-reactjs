@@ -14,7 +14,5 @@ class SideNav extends Component {
     );
   }
 }
-{
-  /* <a id="contact" className="menu-item" href="/contact">Contact</a> */
-}
+
 export default SideNav;

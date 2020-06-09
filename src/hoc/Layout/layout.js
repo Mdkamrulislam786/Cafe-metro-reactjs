@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import "./layout.css";
 import Header from '../../components/Home/Header/header'
-import SideIconBar from '../../components/widgets/Side-IconBar/sideiconbar'
+import Footer from '../../components/Home/Footer/footer'
+import {Container} from 'react-bootstrap'
+
 class Layout extends Component {
   state = {};
 
   render() {
     return (
-      <div id="page-wrap">
+      <div>
        <Header/>
         {this.props.children}
-        Footers
+        <Footer/>
       </div>
     );
   }
