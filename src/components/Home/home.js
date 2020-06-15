@@ -14,8 +14,8 @@ const Home = () => {
           className={"MenuHomeImg"}
           h3="EXPLORE"
           p="OUR DELIICOUS MENU"
-          link="/MainMenu"
-          linkTo="/MainMenu"
+          link="/MainMenu-Order-Online"
+          linkTo="/MainMenu-Order-Online"
           cta="Show Me"
         />
         <Container fluid>

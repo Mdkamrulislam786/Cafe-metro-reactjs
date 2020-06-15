@@ -65,7 +65,7 @@
 
 }
 
-h3 {
+#menuhome h3 {
     text-decoration: none;
     text-decoration-style: none;
     color: green;
@@ -74,7 +74,7 @@ h3 {
 
 }
 
-h3:hover {
+#menuhome h3:hover {
     color: goldenrod;
 }
 a{

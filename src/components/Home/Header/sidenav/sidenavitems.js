@@ -14,9 +14,9 @@ const SideNavItems = () => {
               <i className="fas fa-home icon"></i>Home
             </Nav.Link>
             </Link>
-          <Link to="/MainMenu">
+          <Link to="/MainMenu-Order-Online">
             <Nav.Link href="/">
-              <i class="fas fa-mug-hot icon"></i>Menu
+              <i className="fas fa-mug-hot icon"></i>Menu
             </Nav.Link>
           </Link>
           <NavDropdown title="Our-Services" id="basic-nav-dropdown">
@@ -31,7 +31,7 @@ const SideNavItems = () => {
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="#ContactUs">
-              <i class="fas fa-mug-hot icon"></i>Contact Us
+              <i className="fas fa-mug-hot icon"></i>Contact Us
             </Nav.Link>
         </Nav>
       </>

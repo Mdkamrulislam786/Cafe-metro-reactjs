@@ -11,18 +11,18 @@ const HomeMain = () => {
       <div id="home">
         <div>
           <Jumbotron fluid className="jumbo">
-            <div className="overlay"></div>
+            
             <p className="rotate"> New </p>
 
-            <h1 class="detail">
-              Cafe <span class="name">Metro</span>{" "}
+            <h1 className="detail">
+              Cafe <span className="name">Metro</span>{" "}
             </h1>
 
             <p>Pizaria Pastry Grill</p>
             <p>
               <Buttons
                 type="greenButton"
-                linkTo="/MainMenu"
+                linkTo="/MainMenu-Order-Online"
                 cta="Order Online"
               />
               <Buttons type="redButton" linkTo="/MainMenu" cta="See The Menu" />

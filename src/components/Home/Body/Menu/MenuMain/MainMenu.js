@@ -1,11 +1,16 @@
-import React from 'react'
-import './menumain.css'
-const MainMenu =()=>(
-    <>
-    <div className="main-menu">
-        <h1>MAIN-MeNU</h1>
-    </div>
-    </>
-)
+import React from "react";
+import "./menumain.css";
+import {Image} from "react-bootstrap";
+import menuimg from "../../../../../assets/cafe-menu.jpg";
+import menuimg1 from "../../../../../assets/caf-menu1.jpg";
 
-export default MainMenu
+const MainMenu = () => (
+  <>
+    <div className="main-menu">
+        <Image src={menuimg} fluid className="menuimg" />
+        <Image src={menuimg1} fluid className="menuimg" />
+    </div>
+  </>
+);
+
+export default MainMenu;

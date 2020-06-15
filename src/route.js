@@ -4,6 +4,7 @@ import Home from "./components/Home/home";
 import Layout from "./hoc/Layout/layout";
 import MenuHome from './components/Home/Body/Menu/menu-home'
 import MainMenu from './components/Home/Body/Menu/MenuMain/MainMenu'
+import App from "./App";
 
 
 class Routes extends Component {
@@ -14,6 +15,7 @@ class Routes extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/Menu" exact component={ MenuHome } />
           <Route path="/MainMenu" exact component={ MainMenu } />
+          <Route path="/MainMenu-Order-Online" exact component={ App } />
         </Switch>
       </Layout>
     );
