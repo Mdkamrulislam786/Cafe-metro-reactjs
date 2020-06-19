@@ -10,22 +10,22 @@ const Buttons = (props) => {
     case "greenButton":
       template = (
         <>
-        <Link to={props.linkTo} onClick={props.onClick}>
-          <Button href="/MainMenu"  className="btns1 btn1">
+        
+          <Button as={Link} to={props.linkTo} onClick={props.onClick} className="btns1 btn1">
            {props.cta}
           </Button>
-        </Link>
+        
         </>
       );
       break;
     case "redButton":
       template = (
         <>
-          <Link to={props.linkTo}>
-            <Button href="/MainMenu"  className="btns btn2">
+         
+            <Button as={Link} to={props.linkTo} className="btns btn2">
              {props.cta}
             </Button>
-          </Link>
+          
         </>
       );
       break;

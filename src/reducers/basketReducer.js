@@ -38,7 +38,14 @@ const initialState = {
       numbers: 0,
       inCart: false,
     },
-  },
+    pastry: {
+      name: "Blueberry-Pastry",
+      tagName: "pastry",
+      price: 90,
+      numbers: 0,
+      inCart: false,
+    }
+  }
 };
 
 export default (state = initialState, action) => {

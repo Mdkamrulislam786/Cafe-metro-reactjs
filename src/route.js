@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
+
+//COMPONENTS
 import Home from "./components/Home/home";
 import Layout from "./hoc/Layout/layout";
 import MenuHome from './components/Home/Body/Menu/menu-home'
 import MainMenu from './components/Home/Body/Menu/MenuMain/MainMenu'
-import App from "./App";
+import ShoppingCart from "./ShoppingCart";
+import Catering from './components/Home/Body/Menu/OurServices/services/catering'
+import Wedding from './components/Home/Body/Menu/OurServices/services/Wedding'
 
 
 class Routes extends Component {
@@ -15,7 +19,9 @@ class Routes extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/Menu" exact component={ MenuHome } />
           <Route path="/MainMenu" exact component={ MainMenu } />
-          <Route path="/MainMenu-Order-Online" exact component={ App } />
+          <Route path="/MainMenu-Order-Online" exact component={ ShoppingCart } />
+          <Route path="/Catering-services" exact component={ Catering } />
+          <Route path="/Wedding-services" exact component={ Wedding } />
         </Switch>
       </Layout>
     );

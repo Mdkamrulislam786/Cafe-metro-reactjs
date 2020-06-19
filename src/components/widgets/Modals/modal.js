@@ -11,10 +11,11 @@ const Modals = (props) => {
 
   return (
     <>
-      <Button size="lg" {...props} variant="success" onClick={handleShow}>
-        <Link to={props.linkTo}>{props.cta}</Link>
+   
+      <Button as={Link} to={props.to} size="lg" variant="success" onClick={handleShow}>
+       {props.cta}
       </Button>
-
+      
       <Modal size="lg" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>

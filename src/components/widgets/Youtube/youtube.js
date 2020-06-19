@@ -5,14 +5,15 @@ const YouTube = (props) => {
   const videoSrc =
     `https://www.youtube.com/embed/${props.video}`
   return (
-    <div className="container">
+    <div className="modal-container">
       <iframe
         className="player"
         type="text/html"
         width="100%"
         height="100%"
         src={videoSrc}
-        frameborder="0"
+        frameBorder="0"
+        title="None"
       />
     </div>
   );

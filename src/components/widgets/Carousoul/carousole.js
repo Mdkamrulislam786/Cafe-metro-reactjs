@@ -10,7 +10,7 @@ const CelebCarousel = (props) => {
     <div className="CelebCarousel">
       <Container fluid>
         <Row>
-          <Col>
+          <Col sm="12" md="12" lg="4" className="mb-3">
             <Carousel>
               <Carousel.Item>
                 <Image src={solo}   className="carousel-img"/>
@@ -40,7 +40,7 @@ const CelebCarousel = (props) => {
               </Carousel.Item>
             </Carousel>
             </Col>
-            <Col>
+            <Col sm="12" md="6" lg="4" className="mb-3">
             <Carousel>
               <Carousel.Item>
                 <Image src={solo}   className="carousel-img"/>
@@ -70,7 +70,7 @@ const CelebCarousel = (props) => {
               </Carousel.Item>
             </Carousel>
             </Col>
-            <Col>
+            <Col sm="12" md="6" lg="4" className="mb-3">
             <Carousel>
               <Carousel.Item>
                 <Image src={solo}   className="carousel-img"/>

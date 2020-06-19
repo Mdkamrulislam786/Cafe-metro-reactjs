@@ -14,12 +14,17 @@ const Navbar = (props) => {
     <>
       <div className="header">
         <h1 className="detail">
-          Cafe <span className="name">Metro</span>{" "}
+          Cafe <span className="name">Metro</span> Shop
         </h1>
         <ul>
           <li>
-            <Link to="cart">
-              <i className="fas fa-shopping-cart fa-2x"></i>
+            <Link to="/MainMenu-Order-Online">
+              <i className="fas fa-home main-menu"></i>
+            </Link>
+          </li>
+          <li>
+            <Link to="/cart">
+              <i className="fas fa-shopping-cart"></i>
               <span>{props.basketProps.basketNumbers}</span>
             </Link>
           </li>

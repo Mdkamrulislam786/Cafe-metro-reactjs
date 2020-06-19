@@ -1,6 +1,6 @@
-#home{
+#home {
     position: relative;
-    
+
 }
 
 .jumbo {
@@ -14,11 +14,11 @@
     align-items: center;
     padding-top: 10rem;
     z-index: 1;
-    
+
 }
 
 .overlay {
-    background-color:  #000000;
+    background-color: #000000;
     position: absolute;
     opacity: 0.1;
     top: 0;
@@ -62,25 +62,40 @@ span.name {
     font-size: 40px;
     font-weight: 700;
     color: #efefef;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media (min-width:320px) and (max-width:475px){
+@media (min-width:320px) and (max-width:425px) {
     .jumbo h1 {
         font-size: 5rem;
-    
+
     }
+
     .jumbo p {
         font-size: 30px;
-       
+
     }
-    .jumbo .rotate{
+
+    .jumbo .rotate {
         position: absolute;
-        font-weight: 400;
+        font-weight: 600;
         font-size: 25px;
         font-style: oblique;
-        left: 50px;
+        left: 40px;
         color: #fff;
         transform: rotate(-20deg);
+    }
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .jumbo .rotate {
+        font-size: 30px;
+        left: 40px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .jumbo .rotate {
+        left: 130px;
     }
 }

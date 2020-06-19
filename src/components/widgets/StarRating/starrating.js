@@ -24,7 +24,7 @@ class Star extends Component {
             name="rate1" 
             starCount={5}
             value={rating}
-            renderStarIcon={() => <span><i class="fa fa-star fa-3x" aria-hidden="true"></i></span>}
+            renderStarIcon={() => <span><i className="fa fa-star fa-3x" aria-hidden="true"></i></span>}
             onStarClick={this.onStarClick.bind(this)}
           />
         </div>

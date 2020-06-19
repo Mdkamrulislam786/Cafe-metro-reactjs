@@ -48,4 +48,14 @@
     background: #bb0000;
     color: white;
   }
+  .phone{
+    background: green;
+    color: white;
+  }
+
+  @media ( min-width: 320px ) and ( max-width: 425px){
+    .icon-bar{
+      display: none;
+    }
+  }
   

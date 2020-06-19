@@ -15,21 +15,23 @@ export const ColoredLine = ({ color }) => (
 
 
 const Footer = () => (
+  <>
+  <Container fluid className="m-0 p-0">
   <footer id="ContactUs" className="footer">
     <div>
       <Row>
-        <Col>
+        <Col sm="12" md="4">
           <div className="footer-logo">
             <p className="rotate"> New </p>
 
-            <h1 class="detail">
-              Cafe <span class="name">Metro</span>
+            <h1 className="detail">
+              Cafe <span className="name">Metro</span>
             </h1>
 
             <p className="footerP">Pizaria Pastry Grill</p>
           </div>
         </Col>
-        <Col>
+        <Col sm="12" md="4" className="mb-3">
           <div>
             <h4>MONDAY-FRIDAY</h4>
             <p>10am-11pm</p>
@@ -39,7 +41,7 @@ const Footer = () => (
             <p>11am-10pm</p>
           </div>
         </Col>
-        <Col>
+        <Col sm="12" md="4">
           <div>
             <address>
               <h4>CONTACT & ADDRESS</h4>
@@ -59,6 +61,8 @@ const Footer = () => (
       </Row>
     </div>
   </footer>
+  </Container>
+  </>
 );
 export default Footer
 

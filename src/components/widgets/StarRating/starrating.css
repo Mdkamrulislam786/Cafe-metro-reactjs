@@ -15,7 +15,9 @@
     font-weight: 600;
     color: #ffffff;
 }
-
+.star h2:hover {
+    color: rgb(0, 255, 0);
+}
 
 @media (min-width:320px)  and (max-width:425px){
     .star h2{

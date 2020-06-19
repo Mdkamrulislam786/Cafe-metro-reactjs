@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./shoppingCart/Navbar";
 import MainMenuHome from "./shoppingCart/Home";
-import "./App.css";
+import "./ShoppingCart.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 //REDUX
 import store from "./store";
 import { Provider } from "react-redux";
 import Cart from "./shoppingCart/Cart";
 
-const App = ()=> {
+const ShoppingCart = ()=> {
   return (
     <Provider store={store}>
       <div className="App">
@@ -24,4 +24,4 @@ const App = ()=> {
   );
 }
 
-export default App;
+export default ShoppingCart;

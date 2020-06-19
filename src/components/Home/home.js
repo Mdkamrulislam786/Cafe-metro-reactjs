@@ -14,8 +14,7 @@ const Home = () => {
           className={"MenuHomeImg"}
           h3="EXPLORE"
           p="OUR DELIICOUS MENU"
-          link="/MainMenu-Order-Online"
-          linkTo="/MainMenu-Order-Online"
+          to="/MainMenu-Order-Online"
           cta="Show Me"
         />
         <Container fluid>
@@ -32,7 +31,7 @@ const Home = () => {
             <Col md={4}>
               <MenuHome
                 className={"chef"}
-                p="OUR CHEFS"
+                h3="OUR CHEFS"
                 cta="Show Me"
                 video="7dIuLd9QoIo"
               />
@@ -48,7 +47,7 @@ const Home = () => {
           video="vUFEipgd2s0"
         />
         <CelebCarousel h3="CLEBRITIES" p="AT CAFE METRO" />
-        <MenuHome className={"customer-reviews"} h3="HAPPY CUSTOMERS REVIEWS" cta="Show Me"
+        <MenuHome className={"customer-reviews"} p="HAPPY CUSTOMERS REVIEWS" cta="Show Me"
           video="vUFEipgd2s0"/>
         <Star/>
       </div>

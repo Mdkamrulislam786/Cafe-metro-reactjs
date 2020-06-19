@@ -6,6 +6,7 @@ import choclateCake from "../images/cake-1.jpeg";
 import birthdayCake from "../images/cake-2.jpeg";
 import doughnut from "../images/doughnut-2.jpeg";
 import sweets from "../images/z-sweets-3.jpeg";
+import pastry from '../assets/pastry.jpg'
 
 const Cart = ({ basketProps, productQuantity, clearProduct }) => {
   console.log(basketProps);
@@ -31,6 +32,8 @@ const Cart = ({ basketProps, productQuantity, clearProduct }) => {
       return doughnut;
     } else if (product.tagName === "sweets") {
       return sweets;
+    }else if (product.tagName === "pastry") {
+      return pastry;
     }
   };
 
@@ -44,7 +47,7 @@ const Cart = ({ basketProps, productQuantity, clearProduct }) => {
             onClick={() => clearProduct(product.tagName)}
             className="fas fa-times-circle"
           ></i>
-          <img src={productsImages(product)} />
+          <img src={productsImages(product)} alt="Cakes&pastry" />
           <span className="sm-hide">{product.name}</span>
         </div>
         <div className="price sm-hide">{product.price}tk</div>

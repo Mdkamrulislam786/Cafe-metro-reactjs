@@ -35,10 +35,10 @@
 .chef,
 .masterkitchen,
 .celebs,
-.customer-reviews > p {
+.customer-reviews > a> p {
     text-decoration: none;
     text-decoration-style: none;
-    color: black;
+    color: #ffffff;
     font-size: 5rem;
     font-weight: 700;
 }
@@ -84,13 +84,12 @@ color: #ffffff;
 }
 a:hover {
     text-decoration: none;
-    color: chartreuse;
+    color: #ffffff;
 }
 
-p:hover {
-    color: #000000;
+a>p:hover{
+    color: rgb(255, 0, 0);
 }
-
 
 
 @media (min-width:320px) and (max-width:475px) {
@@ -100,7 +99,7 @@ p:hover {
     .chef,
     .masterkitchen,
     .celebs,
-    .customer-reviews p {
+    .customer-reviews > a> p {
         text-decoration: none;
         color: #ffffff;
         font-size: 2rem;
@@ -108,20 +107,41 @@ p:hover {
         text-decoration-style: none;
     }
 
-    h3 {
+    #menuhome h3 {
         font-size: 2rem;
         text-decoration-style: none;
     }
 }
+@media (min-width:426px) and (max-width:768px) {
+    .environment,
+    .MenuHomeImg,
+    .chef,
+    .masterkitchen,
+    .celebs,
+    .customer-reviews > a> p {
+       
+        font-size: 4rem;
+        font-weight: 600;
+        
+    }
 
-/* .basic{
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-} */
+    #menuhome h3 {
+        font-size: 3rem;
+       
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .environment,
+    .MenuHomeImg,
+    .chef,
+    .masterkitchen,
+    .celebs,
+    .customer-reviews > a> p {
+        font-size: 4rem;
+    }
+
+    #menuhome h3 {
+        font-size: 3rem;
+    }
+}

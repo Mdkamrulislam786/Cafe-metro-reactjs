@@ -1,6 +1,5 @@
 import React from "react";
 import "./headermain.css";
-import { Container } from "react-bootstrap";
 import { Jumbotron } from "react-bootstrap";
 import Buttons from "../../../widgets/Buttons/button";
 import SideIconBar from "../../../widgets/Side-IconBar/sideiconbar";
@@ -11,7 +10,6 @@ const HomeMain = () => {
       <div id="home">
         <div>
           <Jumbotron fluid className="jumbo">
-            
             <p className="rotate"> New </p>
 
             <h1 className="detail">
@@ -19,14 +17,22 @@ const HomeMain = () => {
             </h1>
 
             <p>Pizaria Pastry Grill</p>
-            <p>
-              <Buttons
-                type="greenButton"
-                linkTo="/MainMenu-Order-Online"
-                cta="Order Online"
-              />
-              <Buttons type="redButton" linkTo="/MainMenu" cta="See The Menu" />
-            </p>
+            
+              <div>
+                <Buttons
+                  type="greenButton"
+                  linkTo="/MainMenu-Order-Online"
+                  cta="Order Online"
+                />
+              </div>
+              <div>
+                <Buttons
+                  type="redButton"
+                  linkTo="/MainMenu"
+                  cta="See The Menu"
+                />
+              </div>
+           
             <SideIconBar />
           </Jumbotron>
         </div>

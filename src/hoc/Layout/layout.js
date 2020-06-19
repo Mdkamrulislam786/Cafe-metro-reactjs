@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./layout.css";
 import Header from '../../components/Home/Header/header'
 import Footer from '../../components/Home/Footer/footer'
-import {Container} from 'react-bootstrap'
+
 
 class Layout extends Component {
   state = {};
