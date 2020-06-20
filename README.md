@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I am using react-bootstrap library to develope this restaurant website. Till now I found that its much more easier to use react-bootstrap cz it helps you make the components faster and responsive.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I designed this website with Figma and used Reactjs, react-bootstrap & Redux to develope this restaurant website (New Cafe Metro: https://new-cafe-metro.netlify.app/ ) . Till now I found that its much more easier to use react-bootstrap cz it helps you make the components faster and responsive. 
+
+#This website has these features below:
+#Modern Design
+#Eye Catching
+#Fully Responsive
+#Shopping Cart
+#Customer Reviews
+#REDUX, React-Redux
+#Reestaurants Services (Customer can book online)
+#Menu (where customers can order online)
+#Contact Section and more
+
+##VISIT NOW:
+New Cafe Metro: https://new-cafe-metro.netlify.app/
 
 ## Available Scripts
 
