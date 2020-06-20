@@ -11,6 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #Menu (where customers can order online)
 #Contact Section and more
 
+##VISIT NOW:
+New Cafe Metro: https://new-cafe-metro.netlify.app/
 
 ## Available Scripts
 
