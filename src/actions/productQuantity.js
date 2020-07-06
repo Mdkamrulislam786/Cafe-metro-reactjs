@@ -5,7 +5,7 @@ export const productQuantity =(action, name)=>{
     return (dispatch)=>{
         console.log('Inside product quantity');
         console.log('The action is', action);
-        console.log('Prduct is', name);
+        console.log('Product is', name);
         dispatch({
             type: action === "increase" ? INCREASE_QUANTITY : DECREASE_QUANTITY,
             payload: name

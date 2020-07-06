@@ -157,12 +157,14 @@
   border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .quantity {
   width: 30%;
   border-bottom: 1px solid lightgray;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -170,6 +172,7 @@
   width: 10%;
   border-bottom: 1px solid lightgray;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 

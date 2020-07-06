@@ -4,7 +4,7 @@ import cake from "../images/cake-1.jpeg";
 import cake1 from "../images/cake-2.jpeg";
 import doughnut from "../images/doughnut-2.jpeg"
 import pastry from "../assets/pastry.jpg";
-//REdUX
+//REDUX
 import { connect } from "react-redux";
 import { addBasket } from "../actions/addAction";
 

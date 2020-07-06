@@ -99,7 +99,6 @@ export default (state = initialState, action) => {
         ...state,
         basketNumbers: newBasketNumbers,
         cartCost: newCartCost,
-        cartCost: state.cartCost - state.products[action.payload].price,
         products: {
           ...state.products,
           [action.payload]: productSelected,

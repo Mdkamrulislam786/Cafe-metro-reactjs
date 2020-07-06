@@ -7,7 +7,7 @@ const MenuItems = (props) => {
         <img className="image" src={props.src} alt={props.alt} />
         <h3>{props.h3}</h3>
         <h3>{props.price}</h3>
-        <a onClick={props.onClick} href="none" className="addToCart carts">
+        <a onClick={props.onClick} href="#" className="addToCart carts">
           <i className="fas fa-shopping-cart">Add to Cart</i>
         </a>
       </div>
