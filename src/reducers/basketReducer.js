@@ -63,7 +63,7 @@ export default (state = initialState, action) => {
         products: {
           ...state.products,
           [action.payload]: productSelected,
-        },
+        }
       };
 
     case GET_NUMBERS_BASKET:

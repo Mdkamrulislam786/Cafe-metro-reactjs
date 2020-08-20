@@ -8,7 +8,7 @@ const SideIconBar = () => {
   return (
     <>
       <div className="icon-bar">
-        <a href="#"  className="facebook">
+        <a disabled href="#"  className="facebook">
           <i className="fa fa-facebook"></i>
         </a>
         <a href="#" className="phone" ref={target} onClick={() => setShow(!show)}>
@@ -22,10 +22,10 @@ const SideIconBar = () => {
           )}
         </Overlay>
 
-        <a href="#"  className="youtube">
+        <a disabled href="#"  className="youtube">
           <i className="fa fa-youtube"></i>
         </a>
-        <a href="#"  className="linkedin">
+        <a disabled href="#"  className="linkedin">
           <i className="fa fa-linkedin"></i>
         </a>
       </div>

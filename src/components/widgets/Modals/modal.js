@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { Modal, Button } from "react-bootstrap";
 import YouTube from "../Youtube/youtube";
 
@@ -12,7 +11,7 @@ const Modals = (props) => {
   return (
     <>
    
-      <Button as={Link} to={props.to} size="lg" variant="success" onClick={handleShow}>
+      <Button size="lg" variant="success" onClick={handleShow}>
        {props.cta}
       </Button>
       
