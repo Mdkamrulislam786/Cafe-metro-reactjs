@@ -8,10 +8,10 @@ const SideIconBar = () => {
   return (
     <>
       <div className="icon-bar">
-        <a disabled href="#"  className="facebook">
+        <a disabled href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"  className="facebook">
           <i className="fa fa-facebook"></i>
         </a>
-        <a href="#" className="phone" ref={target} onClick={() => setShow(!show)}>
+        <a href="#Contact" disabled className="phone" ref={target} onClick={() => setShow(!show)}>
           <i className="fas fa-phone-alt"></i>
         </a>
         <Overlay target={target.current} show={show} placement="right">
@@ -22,10 +22,10 @@ const SideIconBar = () => {
           )}
         </Overlay>
 
-        <a disabled href="#"  className="youtube">
-          <i className="fa fa-youtube"></i>
+        <a disabled href="https://www.youtube.com/"  target="_blank"  rel="noopener noreferrer"className="youtube">
+          <i className="fa fa-youtube"></i> 
         </a>
-        <a disabled href="#"  className="linkedin">
+        <a disabled href="https://www.linkedin.com/"  target="_blank" rel="noopener noreferrer" className="linkedin">
           <i className="fa fa-linkedin"></i>
         </a>
       </div>
