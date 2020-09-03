@@ -3,6 +3,7 @@ import Navbar from "./shoppingCart/Navbar";
 import MainMenuHome from "./shoppingCart/Home";
 import "./ShoppingCart.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+
 //REDUX
 import store from "./store";
 import { Provider } from "react-redux";

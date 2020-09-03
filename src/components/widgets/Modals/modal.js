@@ -10,17 +10,16 @@ const Modals = (props) => {
 
   return (
     <>
-   
       <Button size="lg" variant="success" onClick={handleShow}>
-       {props.cta}
+        {props.cta}
       </Button>
-      
+
       <Modal size="lg" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <YouTube video={props.video}/>,
+          <YouTube video={props.video} />,
         </Modal.Body>
         <Modal.Footer>
           <Button variant="danger" onClick={handleClose}>

@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .App .header {
@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-position: center;
   max-width: 100%;
-  height: 150px ;
+  height: 150px;
   position: relative;
 }
 
@@ -36,16 +36,19 @@
   justify-content: space-between;
   padding: 40px 60px 0 60px;
 }
- h2{
-   font-size: 40px;
-   font-weight: 600;
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
   color: #53e9dd;
   text-align: center;
   margin-top: 20px;
 }
-.header h1{
+
+.header h1 {
   color: rgb(7, 255, 7);
 }
+
 .header li {
   position: absolute;
   top: 2rem;
@@ -57,7 +60,8 @@
   display: inline-block;
   padding: 5px;
 }
-.header .main-menu{
+
+.header .main-menu {
   position: absolute;
   top: 0;
   right: 4rem;
@@ -82,7 +86,7 @@
   flex-wrap: wrap;
   margin-top: 50px;
   padding-bottom: 20px;
-  
+
 }
 
 .images {
@@ -102,7 +106,6 @@
 
 .addToCart {
   position: absolute;
-  
   width: 100%;
   background-color: darkgray;
   opacity: 0;
@@ -112,9 +115,9 @@
 }
 
 .images:hover .carts {
-  bottom: 50px;
+  left:-20px;
+  bottom: 60px;
   opacity: 1;
-  padding: 10px;
   color: #000000;
   text-decoration: none;
 }
@@ -233,21 +236,29 @@
   .basketTotalContainer {
     padding-right: 8%;
   }
-  .header h1{
+
+  .header h1 {
     display: none;
   }
-  .images h3{
+
+  .images h3 {
     font-size: 20px;
     font-weight: 400;
   }
 }
-@media (min-width:320px) and (max-width:768px){
+
+@media (min-width:320px) and (max-width:768px) {
   .image {
     max-width: 200px;
     height: 100px;
   }
+  .images:hover .carts {
+    left:-20px;
+    bottom: 45px;
+  }
 }
-@media (min-width:769px) and (max-width:1280px){
+
+@media (min-width:769px) and (max-width:1280px) {
   .image {
     max-width: 200px;
     height: 200px;
