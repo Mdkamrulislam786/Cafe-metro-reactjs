@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: serif;
 }
 
 .App .header {
@@ -24,6 +24,8 @@
   right: 0;
   bottom: 0;
 }
+
+
 
 .header {
   position: absolute;
@@ -115,7 +117,7 @@ h2 {
 }
 
 .images:hover .carts {
-  left:-20px;
+  left: -20px;
   bottom: 60px;
   opacity: 1;
   color: #000000;
@@ -217,6 +219,10 @@ h2 {
   width: 30%;
 }
 
+.menuitem {
+  margin-bottom: 1rem;
+}
+
 @media (max-width:500px) {
   nav h2 {
     width: 100%;
@@ -252,8 +258,9 @@ h2 {
     max-width: 200px;
     height: 100px;
   }
+
   .images:hover .carts {
-    left:-20px;
+    left: -20px;
     bottom: 45px;
   }
 }

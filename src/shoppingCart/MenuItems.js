@@ -3,15 +3,15 @@ import { Button } from "react-bootstrap";
 
 const MenuItems = (props) => {
   return (
-    <div>
+    <div className="menuitem">
       <div className="images">
         <img className="image" src={props.src} alt={props.alt} />
-        <div>
+        <span className="images__h3">
           <h3 style={{ textAlign: "center" }}>{props.h3}</h3>
           <h3 style={{ textAlign: "center", fontSize: "20px" }}>
-            {props.price}
+            Price: {props.price}
           </h3>
-        </div>
+        </span>
         <Button onClick={props.onClick} className="addToCart carts">
           <i className="fas fa-shopping-cart">Add to Cart</i>
         </Button>
