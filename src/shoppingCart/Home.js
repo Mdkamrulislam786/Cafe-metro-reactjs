@@ -13,8 +13,6 @@ import { connect } from "react-redux";
 import { addBasket } from "../actions/addAction";
 
 const MainMenuHome = (props) => {
-  // console.log(props);
-
   return (
     <>
       <div>
@@ -125,5 +123,9 @@ const MainMenuHome = (props) => {
     </>
   );
 };
+
+// const mapStateToProps = (state) => ({
+//   basketProps: state.basketState,
+// });
 
 export default connect(null, { addBasket })(MainMenuHome);

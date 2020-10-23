@@ -1,0 +1,78 @@
+{
+    "cakesAndPastries": {
+            "pastries": [{
+                    "name": "Choclate Cake",
+                    "img": "/images/burger.jpg",
+                    "tagName": "choclateCake",
+                    "price": 220,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Birthday Cake",
+                    "img": "/images/burger.jpg",
+                    "tagName": "birthdayCake",
+                    "price": 350,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Doughnut",
+                    "img": "/images/burger.jpg",
+                    "tagName": "doughnut",
+                    "price": 120,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Sweets",
+                    "img": "/images/burger.jpg",
+                    "tagName": "sweets",
+                    "price": 100,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Blueberry-Pastry",
+                    "img": "/images/burger.jpg",
+                    "tagName": "pastry",
+                    "price": 90,
+                    "numbers": 0,
+                    "inCart": false
+                }
+            ],
+            "cakes": [{
+                "id": 1,
+                "name": "Choclate Cake",
+                "price": 150,
+                "image": "/public/images/cake-1.jpg"
+            },
+            {
+                "id": 1,
+                "name": "Choclate Cake",
+                "price": 150,
+                "image": "/public/images/cake-1.jpg"
+            }]
+        },
+    
+    
+        "fastFoods": {
+            "burgers":[
+                {
+                    "id": 1,
+                    "name": "Choclate Cake",
+                    "price": 150,
+                    "image": "/public/images/cake-1.jpg"
+                }
+            ],
+            "sandwich":[
+                {
+                    "id": 1,
+                    "name": "Choclate Cake",
+                    "price": 150,
+                    "image": "/public/images/cake-1.jpg"
+                }
+            ] 
+        }
+    
+}
