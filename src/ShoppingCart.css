@@ -2,7 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: serif;
+  font-family: "Roboto", "sans-serif";
+}
+
+/* Navbar */
+.header .detail {
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 3rem;
+  align-items: center;
 }
 
 .App .header {

@@ -7,10 +7,10 @@ const MenuItems = (props) => {
       <div className="images">
         <img className="image" src={props.src} alt={props.alt} />
         <span className="images__h3">
-          <h3 style={{ textAlign: "center" }}>{props.h3}</h3>
-          <h3 style={{ textAlign: "center", fontSize: "20px" }}>
-            Price: {props.price}
-          </h3>
+          <h4 style={{ textAlign: "center" }}>{props.h3}</h4>
+          <h4 style={{ color: "green", textAlign: "center", fontSize: "18px" }}>
+            Price: {props.price}tk
+          </h4>
         </span>
         <Button onClick={props.onClick} className="addToCart carts">
           <i className="fas fa-shopping-cart">Add to Cart</i>

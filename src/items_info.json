@@ -1,57 +1,69 @@
 {
     "cakesAndPastries": {
             "pastries": [{
-                    "name": "Choclate Cake",
-                    "img": "/images/burger.jpg",
+                    "name": "Black forest",
+                    "img": "/images/pastry.jpg",
                     "tagName": "choclateCake",
                     "price": 220,
                     "numbers": 0,
                     "inCart": false
                 },
                 {
-                    "name": "Birthday Cake",
-                    "img": "/images/burger.jpg",
+                    "name": "White Forest",
+                    "img": "/images/pastry.jpg",
                     "tagName": "birthdayCake",
                     "price": 350,
                     "numbers": 0,
                     "inCart": false
                 },
                 {
-                    "name": "Doughnut",
-                    "img": "/images/burger.jpg",
+                    "name": "Swiss Roll",
+                    "img": "/images/pastry.jpg",
                     "tagName": "doughnut",
                     "price": 120,
                     "numbers": 0,
                     "inCart": false
                 },
                 {
-                    "name": "Sweets",
-                    "img": "/images/burger.jpg",
-                    "tagName": "sweets",
-                    "price": 100,
-                    "numbers": 0,
-                    "inCart": false
-                },
-                {
                     "name": "Blueberry-Pastry",
-                    "img": "/images/burger.jpg",
+                    "img": "/images/pastry.jpg",
                     "tagName": "pastry",
                     "price": 90,
                     "numbers": 0,
                     "inCart": false
                 }
             ],
-            "cakes": [{
-                "id": 1,
-                "name": "Choclate Cake",
-                "price": 150,
-                "image": "/public/images/cake-1.jpg"
+        "cakes": [{
+                "name": "Black forest",
+                "img": "/images/cake-2.jpeg",
+                "tagName": "choclateCake",
+                "price": 220,
+                "numbers": 0,
+                "inCart": false
             },
             {
-                "id": 1,
-                "name": "Choclate Cake",
-                "price": 150,
-                "image": "/public/images/cake-1.jpg"
+                "name": "White Forest",
+                "img": "/images/cake-2.jpeg",
+                "tagName": "birthdayCake",
+                "price": 350,
+                "numbers": 0,
+                "inCart": false
+            },
+            {
+                "name": "Swiss Roll",
+                "img": "/images/cake-2.jpeg",
+                "tagName": "doughnut",
+                "price": 120,
+                "numbers": 0,
+                "inCart": false
+            },
+            {
+                "name": "Blueberry-Pastry",
+                "img": "/images/cake-2.jpeg",
+                "tagName": "pastry",
+                "price": 90,
+                "numbers": 0,
+                "inCart": false
             }]
         },
     
@@ -59,18 +71,70 @@
         "fastFoods": {
             "burgers":[
                 {
-                    "id": 1,
-                    "name": "Choclate Cake",
-                    "price": 150,
-                    "image": "/public/images/cake-1.jpg"
+                    "name": "Chicken Burger",
+                    "img": "/images/burger.jpg",
+                    "tagName": "sweets",
+                    "price": 80,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Grilled Cheese Burger",
+                    "img": "/images/burger.jpg",
+                    "tagName": "sweets",
+                    "price": 90,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Vegitable burger",
+                    "img": "/images/burger.jpg",
+                    "tagName": "sweets",
+                    "price": 100,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Beef Burger",
+                    "img": "/images/burger.jpg",
+                    "tagName": "sweets",
+                    "price": 120,
+                    "numbers": 0,
+                    "inCart": false
                 }
             ],
-            "sandwich":[
+            "sandwiches":[
                 {
-                    "id": 1,
-                    "name": "Choclate Cake",
-                    "price": 150,
-                    "image": "/public/images/cake-1.jpg"
+                    "name": "Grilled Sandwich",
+                    "img": "/images/sandwich.jpg",
+                    "tagName": "sandwich",
+                    "price": 100,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Vegitable Sandwich",
+                    "img": "/images/sandwich.jpg",
+                    "tagName": "sandwich",
+                    "price": 60,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Chicken Sandwich",
+                    "img": "/images/sandwich.jpg",
+                    "tagName": "sandwich",
+                    "price": 100,
+                    "numbers": 0,
+                    "inCart": false
+                },
+                {
+                    "name": "Cheese Sandwich",
+                    "img": "/images/sandwich.jpg",
+                    "tagName": "sandwich",
+                    "price": 100,
+                    "numbers": 0,
+                    "inCart": false
                 }
             ] 
         }

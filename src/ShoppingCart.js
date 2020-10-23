@@ -17,12 +17,8 @@ const ShoppingCart = () => {
         <BrowserRouter>
           <Navbar />
           <Switch>
-            <Route
-              path="/MainMenu-Order-Online"
-              exact
-              component={MainMenuHome}
-            />
-            <Route path="/testmenu" exact component={TestMenu} />
+            <Route path="/MainMenu-Order-Online" exact component={TestMenu} />
+            {/* <Route path="/testmenu" exact component={TestMenu} /> */}
             <Route path="/Cart" exact component={Cart} />
           </Switch>
         </BrowserRouter>
