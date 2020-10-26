@@ -4,7 +4,6 @@ import { getNumbers } from "../actions/getAction";
 import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
-  console.log(props);
 
   useEffect(() => {
     getNumbers();
@@ -25,7 +24,7 @@ const Navbar = (props) => {
           <li>
             <Link to="/cart">
               <i className="fas fa-shopping-cart"></i>
-              <span>{props.basketProps.basketNumbers}</span>
+              <span>{props.testReducer.basketNumbers}</span>
             </Link>
           </li>
         </ul>
@@ -35,7 +34,7 @@ const Navbar = (props) => {
 };
 
 const mapStateToProps = (state) => ({
-  basketProps: state.basketState,
+  testReducer: state.testReducer,
 });
 
 export default connect(mapStateToProps, { getNumbers })(Navbar);

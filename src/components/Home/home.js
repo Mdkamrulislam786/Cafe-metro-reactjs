@@ -1,9 +1,10 @@
 import React from "react";
 import HomeMain from "./Header/HeaderMain/headermain";
 import MenuHome from "./Body/Menu/menu-home";
-import CelebCarousel from "../widgets/Carousoul/carousole";
 import { Container, Row, Col } from "react-bootstrap";
-import Star from '../widgets/StarRating/starrating'
+import Star from "../widgets/StarRating/starrating";
+import CMGallery from "./Body/ImageGallery/ImageGallery";
+
 
 const Home = () => {
   return (
@@ -46,10 +47,14 @@ const Home = () => {
           cta="Show Me"
           video="vUFEipgd2s0"
         />
-        <CelebCarousel h3="CLEBRITIES" p="AT CAFE METRO" />
-        <MenuHome className={"customer-reviews"} p="HAPPY CUSTOMERS REVIEWS" cta="Show Me"
-          video="vUFEipgd2s0"/>
-        <Star/>
+        <CMGallery />
+        <MenuHome
+          className={"customer-reviews"}
+          p="HAPPY CUSTOMERS REVIEWS"
+          cta="Show Me"
+          video="vUFEipgd2s0"
+        />
+        {/* <Star /> */}
       </div>
     </>
   );

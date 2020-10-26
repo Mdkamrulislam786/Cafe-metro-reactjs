@@ -113,121 +113,19 @@ h2 {
   border-radius: 5px;
 }
 
-.addToCart {
-  position: absolute;
-  width: 100%;
-  background-color: darkgray;
-  opacity: 0;
-  cursor: pointer;
-  text-align: center;
-  transition: all 0.3s ease-in-out;
-}
 
-.images:hover .carts {
-  left: -20px;
-  bottom: 60px;
-  opacity: 1;
-  color: #000000;
-  text-decoration: none;
-}
-
-
-/**********
-******** CART PAGE *****
-**********/
-
-.container-products {
-  max-width: 650px;
-  justify-content: space-around;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-.container-products .icons {
-  font-size: 25px;
-  color: blue;
-  margin-right: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.product-header {
-  width: 100%;
-  max-width: 650px;
-  display: flex;
-  justify-content: flex-start;
-  border-bottom: 4px solid lightgray;
-  margin: 0 auto;
-}
-
-.product-title {
-  width: 45%;
-}
-
-.price {
-  width: 15%;
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.quantity {
-  width: 30%;
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.total {
-  width: 10%;
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.product {
-  width: 45%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-  border-bottom: 1px solid lightgrey;
-}
-
-.product i {
-  cursor: pointer;
-}
-
-.products {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.product img {
-  width: 45px;
-}
-
-.basketTotalContainer {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  padding: 10px 0;
-}
-
-.basketTotalTitle {
-  width: 30%;
-}
-
-.basketTotal {
-  width: 30%;
-}
-
+/* ADD TO CART BUTTON */
 .menuitem {
   margin-bottom: 1rem;
+}
+
+.menuitem__buttons {
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  margin: 0 !important;
 }
 
 @media (max-width:500px) {
@@ -264,11 +162,6 @@ h2 {
   .image {
     max-width: 200px;
     height: 100px;
-  }
-
-  .images:hover .carts {
-    left: -20px;
-    bottom: 45px;
   }
 }
 

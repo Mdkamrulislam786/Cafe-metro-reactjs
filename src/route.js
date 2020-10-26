@@ -9,8 +9,8 @@ import MainMenu from "./components/Home/Body/Menu/MenuMain/MainMenu";
 import ShoppingCart from "./ShoppingCart";
 import Catering from "./components/Home/Body/Menu/OurServices/services/catering";
 import Wedding from "./components/Home/Body/Menu/OurServices/services/Wedding";
-import TestMenu from './shoppingCart/TestMenu'
-
+import OurStory from "./components/Home/Body/Menu/OurServices/services/OurStory";
+import TestMenu from "./shoppingCart/TestMenu";
 
 class Routes extends Component {
   render() {
@@ -23,6 +23,7 @@ class Routes extends Component {
           <Route path="/MainMenu-Order-Online" exact component={ShoppingCart} />
           <Route path="/Catering-services" exact component={Catering} />
           <Route path="/Wedding-services" exact component={Wedding} />
+          <Route path="/our-story" exact component={OurStory} />
           <Route path="/testmenu" exact component={TestMenu} />
         </Switch>
       </Layout>

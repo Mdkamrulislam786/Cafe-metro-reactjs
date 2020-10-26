@@ -7,10 +7,9 @@ import "./testmenu.css";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 //REDUX
 import { connect } from "react-redux";
-import { addBasket } from "../actions/addAction";
+import { addBasket, openModal } from "../actions/addAction";
 
 const TestMenu = (props) => {
-  console.log(props);
   //ITEMS
   const pastries = jsondata.cakesAndPastries.pastries;
   const cakes = jsondata.cakesAndPastries.cakes;
@@ -28,7 +27,8 @@ const TestMenu = (props) => {
                 src={item.img}
                 h3={item.name}
                 price={item.price}
-                onClick={() => props.addBasket(item.tagName)}
+                itemInfo={() => props.openModal(item.id)}
+                addItem={() => props.addBasket(item.id)}
               />
             </Col>
           );
@@ -42,7 +42,8 @@ const TestMenu = (props) => {
                 src={item.img}
                 h3={item.name}
                 price={item.price}
-                onClick={() => props.addBasket(item.tagName)}
+                itemInfo={() => props.addBasket(item.id)}
+                addItem={() => props.addBasket(item.id)}
               />
             </Col>
           );
@@ -55,7 +56,8 @@ const TestMenu = (props) => {
                 src={item.img}
                 h3={item.name}
                 price={item.price}
-                onClick={() => props.addBasket(item.tagName)}
+                itemInfo={() => props.addBasket(item.id)}
+                addItem={() => props.addBasket(item.id)}
               />
             </Col>
           );
@@ -68,7 +70,8 @@ const TestMenu = (props) => {
                 src={item.img}
                 h3={item.name}
                 price={item.price}
-                onClick={() => props.addBasket(item.tagName)}
+                itemInfo={() => props.addBasket(item.id)}
+                addItem={() => props.addBasket(item.id)}
               />
             </Col>
           );
@@ -117,8 +120,8 @@ const TestMenu = (props) => {
         </Tab.Container>
       </Container>
     </div>
-  )
+  );
 };
 
 // export default TestMenu;
-export default connect(null, { addBasket })(TestMenu);
+export default connect(null, { addBasket, openModal })(TestMenu);

@@ -1,20 +1,29 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, ButtonGroup } from "react-bootstrap";
 
 const MenuItems = (props) => {
   return (
     <div className="menuitem">
       <div className="images">
         <img className="image" src={props.src} alt={props.alt} />
+        <div className="menuitem__buttons">
+          <ButtonGroup size="sm">
+            <Button onClick={props.itemInfo} variant="info">
+              <i className="fa fa-info-circle" aria-hidden="true" />
+              nfo
+            </Button>
+            <Button onClick={props.addItem} variant="success">
+              <i className="fas fa-shopping-cart" />
+              Add
+            </Button>
+          </ButtonGroup>
+        </div>
         <span className="images__h3">
-          <h4 style={{ textAlign: "center" }}>{props.h3}</h4>
-          <h4 style={{ color: "green", textAlign: "center", fontSize: "18px" }}>
+          <h5 style={{ textAlign: "center" }}>{props.h3}</h5>
+          <h5 style={{ color: "green", textAlign: "center", fontSize: "16px" }}>
             Price: {props.price}tk
-          </h4>
+          </h5>
         </span>
-        <Button onClick={props.onClick} className="addToCart carts">
-          <i className="fas fa-shopping-cart">Add to Cart</i>
-        </Button>
       </div>
     </div>
   );
