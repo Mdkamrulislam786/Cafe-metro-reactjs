@@ -3,6 +3,7 @@ import Navbar from "./shoppingCart/Navbar";
 // import MainMenuHome from "./shoppingCart/Home";
 import TestMenu from "./shoppingCart/TestMenu";
 import Order from "./shoppingCart/Order/Order";
+import OrderCompleted from "./shoppingCart/Order/OrderCompleted";
 import "./ShoppingCart.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ModalButton from "./components/widgets/Modals/ItemInfoModal";
@@ -19,11 +20,12 @@ const ShoppingCart = () => {
         <BrowserRouter>
           <Navbar />
           <Switch>
-            <Route path="/MainMenu-Order-Online" exact component={TestMenu} />
+            <Route path="/shop" exact component={TestMenu} />
             {/* <Route path="/testmenu" exact component={TestMenu} /> */}
             <Route path="/Cart" exact component={Cart} />
             <Route path="/checkout" exact component={Checkout} />
             <Route path="/order" exact component={Order} />
+            <Route path="/order-completed" exact component={OrderCompleted} />
           </Switch>
           <ModalButton />
         </BrowserRouter>

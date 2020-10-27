@@ -5,7 +5,7 @@ import "./CartItems.css";
 import { connect } from "react-redux";
 
 const CartItems = ({ item }) => {
-  const { id, name, img, price, total, numbers } = item;
+  const { name, img, price, total, numbers } = item;
 
   return (
     <Row className="text-center text-capitalize my-2">
@@ -30,7 +30,7 @@ const CartItems = ({ item }) => {
       </Col>
       <Col className="mx-auto">
         <div className="cart-icon">
-          <i className="fa fa-trash"/>
+          <i className="fa fa-trash" />
         </div>
       </Col>
       <Col className="mx-auto">{total} $</Col>

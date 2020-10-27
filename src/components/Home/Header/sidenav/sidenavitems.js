@@ -36,7 +36,7 @@ const SideNavItems = () => {
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link as={Link} to="/our-story">
-            <i class="fas fa-user" /> Our Story
+            <i className="fas fa-user" /> Our Story
           </Nav.Link>
           <Nav.Link href="#ContactUs">
             <i className="fas fa-id-card-alt icon" /> Contact Us

@@ -27,7 +27,7 @@ const HomeMain = () => {
             <div>
               <Buttons
                 type="greenButton"
-                linkTo="/MainMenu-Order-Online"
+                linkTo="/shop"
                 cta="Order Online"
               />
             </div>

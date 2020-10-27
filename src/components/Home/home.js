@@ -2,9 +2,7 @@ import React from "react";
 import HomeMain from "./Header/HeaderMain/headermain";
 import MenuHome from "./Body/Menu/menu-home";
 import { Container, Row, Col } from "react-bootstrap";
-import Star from "../widgets/StarRating/starrating";
 import CMGallery from "./Body/ImageGallery/ImageGallery";
-
 
 const Home = () => {
   return (
@@ -15,7 +13,7 @@ const Home = () => {
           className={"MenuHomeImg"}
           h3="EXPLORE"
           p="OUR DELIICOUS MENU"
-          to="/MainMenu-Order-Online"
+          to="/shop"
           cta="Show Me"
         />
         <Container fluid>
@@ -54,7 +52,6 @@ const Home = () => {
           cta="Show Me"
           video="vUFEipgd2s0"
         />
-        {/* <Star /> */}
       </div>
     </>
   );

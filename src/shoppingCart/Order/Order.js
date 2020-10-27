@@ -1,7 +1,8 @@
 import React from "react";
-import { Col, Container, Row, Card, Button, Table } from "react-bootstrap";
+import { Col, Container, Row, Button, Table } from "react-bootstrap";
 import "./Order.css";
 import img from "../../assets/pastry.jpg";
+import { Link } from "react-router-dom";
 const Order = () => {
   return (
     <div className="order">
@@ -64,7 +65,12 @@ const Order = () => {
         </Row>
         <Row>
           <div className="order__button">
-            <Button variant="success" type="submit">
+            <Button
+              as={Link}
+              to="/order-completed"
+              variant="success"
+              type="submit"
+            >
               Place Order
             </Button>
           </div>

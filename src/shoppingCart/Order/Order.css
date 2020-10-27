@@ -1,11 +1,18 @@
-.order {
+.order,
+.OrderComplete {
     padding: 2rem 0;
 
 }
 
-.order__address {
-    padding: 5px;
+.order__address,
+.OrderComplete__msg {
+    padding: 7px;
     background-color: #eee;
+}
+
+.OrderComplete__msg {
+    text-align: center;
+    align-items: center;
 }
 
 .order__address h5,

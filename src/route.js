@@ -20,7 +20,7 @@ class Routes extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/Menu" exact component={MenuHome} />
           <Route path="/MainMenu" exact component={MainMenu} />
-          <Route path="/MainMenu-Order-Online" exact component={ShoppingCart} />
+          <Route path="/shop" exact component={ShoppingCart} />
           <Route path="/Catering-services" exact component={Catering} />
           <Route path="/Wedding-services" exact component={Wedding} />
           <Route path="/our-story" exact component={OurStory} />
